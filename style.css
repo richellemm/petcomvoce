@@ -1,6 +1,7 @@
 body {
     background-color: #87b376;
     color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .cabecalho{
@@ -11,6 +12,10 @@ body {
 .descriçao{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
+}
+
+.frete{
+    text-align: center;
 }
 
 .container img{
@@ -69,4 +74,27 @@ li {
 li:hover{
     color: brown;
     background-color: rgb(238, 238, 187);
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+a:link {
+    text-decoration: none;
+   }
+   
+   a:hover {
+    text-decoration: underline;
+    color:#87b376;
+    background-color: rgb(238, 238, 187);
+     }
+
+footer{
+    text-align: center;
+    font-size: large;
+    padding: 6rem;
 }
